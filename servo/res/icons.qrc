@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>alarm.png</file>
+        <file>close.png</file>
+        <file>connect.png</file>
+        <file>device.png</file>
+        <file>disconnect.png</file>
+        <file>down.png</file>
+        <file>left.png</file>
+        <file>mark.png</file>
+        <file>open.png</file>
+        <file>right.png</file>
+        <file>save.png</file>
+        <file>stop.png</file>
+        <file>switch.png</file>
+    </qresource>
+</RCC>
