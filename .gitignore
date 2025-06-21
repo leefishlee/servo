@@ -1,0 +1,150 @@
+## 忽略Visual Studio 2022临时文件和文件夹
+
+# 用户特定文件
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 用户特定文件夹
+.vs/
+.vscode/
+
+# Build 结果
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og*/
+build*/  # 忽略所有以build开头的文件夹
+
+# 包文件夹
+packages/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# TeamCity
+_TeamCity*
+
+# DotCover
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# SpecFlow
+*.feature.cs
+*.feature.xlsx.*
+
+# InstallShield 输出文件
+[Ee]xpress/
+*.InstallState
+*.InstallLog
+
+# DocProject
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.HHK
+DocProject/Help/*.HHP
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once 发布
+publish/
+
+# Publish Web 输出
+*.PublishSettings
+
+# Azure Stream Analytics 项目配置文件
+*.ASA.csproj
+
+# Microsoft Azure Web App 发布设置
+*.azurePubxml
+
+# Windows 图像备份文件
+*.Backup
+*.bak
+
+# SQL Server 文件
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence 项目
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# T4 生成文件
+Generated_Code/
+
+# Visual Studio 代码覆盖率结果
+*.coverage
+*.coveragexml
+
+# NPM
+node_modules/
+
+# Windows Installer 文件
+*.msi
+*.msp
+
+# Windows Installer 补丁
+*.patch
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+## 忽略Qt特定文件和文件夹
+
+# Qt 临时文件
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*moc_*.cpp
+*.qrc_
+*qrc_*.cpp
+*.ui.h
+ui_*.h
+*.qmake.stash
+*.qmake.cache
+
+# Qt 编译输出
+debug/
+release/
+*.app
+
+# Qt Creator备份文件
+*.autosave
+
+# 忽略所有_build文件夹（Qt通常使用这个文件夹进行构建）
+*_build/
+
+# QML 缓存文件
+qml/*.qmlc
+qmlcache/
+out
